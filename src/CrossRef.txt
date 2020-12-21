@@ -1,0 +1,37 @@
+// import { useEffect, useState} from 'react';
+// import JSONPretty from 'react-json-pretty';
+// import { getWorks } from "./apiClient";
+// //import {parseResults} from "./helper";
+
+// const CrossRef = () => {
+
+//   const [state, setstate] = useState({})
+
+//   // only run once on component mount
+//   useEffect(() => {
+//     getWorks('10.2196/12121').then(x => {
+      
+//       const authors = x.message.author.map((y: any)=> {
+//         const res = {
+//         'first_name': y.given,
+//         'last_name': y.family,
+//         orcid: y.ORCID
+//       }
+  
+//         return res;
+//       });
+//       const title = x.message.title[0];
+//       const result = {
+//         title,
+//         authors
+//       };
+   
+//       setstate(result)
+//     });
+//   }, []);
+//   return (
+//     <JSONPretty id="json-pretty" data={state}></JSONPretty>
+//   );
+// }
+
+// export default CrossRef;

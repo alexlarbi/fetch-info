@@ -1,0 +1,42 @@
+// import { useState, useEffect} from 'react';
+// import JSONPretty from 'react-json-pretty';
+// import { getESummary } from "./apiClient";
+// import {XML, XMLList} from "sxml";
+
+
+
+// const PubMed = () => {
+
+//   const [state, setstate] = useState({})
+//   useEffect(() => {
+//   getESummary('31115346').then(x => {
+//     let xml: XML = new XML(x);
+//     let xmlList: XMLList = xml.get("DocSum");
+//     const title = xmlList.at(0).get("Item").at(5).getValue();
+     
+//     const authorElements = xmlList.at(0).get("Item").at(3).get("Item");
+//     let authors = [];
+//     for(let i = 0; i < authorElements.size(); i++){
+//       const name = authorElements.at(i).getValue().split(" ");
+      
+//       const firstName = name[0];
+//       const lastName = name[1];
+//       authors.push({
+//         'first_name': firstName,
+//         'last_name': lastName,
+//       });
+//     }
+//       const result = {
+//         title,
+//         authors
+//       };
+   
+//       setstate(result);
+//     });
+//      },[]);
+//   return (
+//     <JSONPretty id="json-pretty" data={state}></JSONPretty>
+//   );
+// }
+
+// export default PubMed;
