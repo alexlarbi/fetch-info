@@ -2,7 +2,7 @@
 
 Fetch's title and author of publications from CrossRef API and Pubmed API, and outputs in JSON.
 
-![Alt text](/fetch-info/output.png?raw=true "Output in JSON")
+![alt text](https://github.com/alexlarbi/fetch-info/output.png?raw=true)
 
 ### Start
 
