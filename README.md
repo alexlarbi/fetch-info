@@ -2,8 +2,6 @@
 
 Fetch's title and author of publications from CrossRef API and Pubmed API, and outputs in JSON.
 
-See output.png for example results.
-
 ![alt text](output.png "Title")
 
 ### Start
